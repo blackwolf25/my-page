@@ -1,22 +1,68 @@
-{
-    "name": "smart/module-blog",
-    "description": "N/A",
-    "require": {
-        "php": "~5.5.0|~5.6.0|~7.0.0",
-        "magento/framework": "100.0.*"
-    },
-    "type": "magento2-module",
-    "version": "1.0.0",
-    "license": [
-        "OSL-3.0",
-        "AFL-3.0"
-    ],
-    "autoload": {
-        "files": [
-            "registration.php"
-        ],
-        "psr-4": {
-            "Smart\\Blog\\": ""
-        }
-    }
-}
+[
+  {
+    "id": 1,
+    "title": "quote1",
+    "short_description" : "short_description",
+    "description": "description",
+    "create_at": "02/05/1997"
+  },
+  {
+    "id": 2,
+    "title": "quote1",
+    "short_description" : "short_description",
+    "description": "description",
+    "create_at": "02/05/1997"
+  },{
+    "id": 3,
+    "title": "quote1",
+    "short_description" : "short_description",
+    "description": "description",
+    "create_at": "02/05/1997"
+  },{
+    "id": 4,
+    "title": "quote1",
+    "short_description" : "short_description",
+    "description": "description",
+    "create_at": "02/05/1997"
+  },{
+    "id": 5,
+    "title": "quote1",
+    "short_description" : "short_description",
+    "description": "description",
+    "create_at": "02/05/1997"
+  },{
+    "id": 6,
+    "title": "quote1",
+    "short_description" : "short_description",
+    "description": "description",
+    "create_at": "02/05/1997"
+  },
+  {
+    "id": 7,
+    "title": "quote1",
+    "short_description" : "short_description",
+    "description": "description",
+    "create_at": "02/05/1997"
+  },
+  {
+    "id": 8,
+    "title": "quote1",
+    "short_description" : "short_description",
+    "description": "description",
+    "create_at": "02/05/1997"
+  },
+  {
+    "id": 9,
+    "title": "quote1",
+    "short_description" : "short_description",
+    "description": "description",
+    "create_at": "02/05/1997"
+  },
+  {
+    "id": 10,
+    "title": "quote1",
+    "short_description" : "short_description",
+    "description": "description",
+    "create_at": "02/05/1997"
+  },
+]
