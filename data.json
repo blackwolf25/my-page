@@ -1,14 +1,6 @@
 {
   "data": {
-    "category": {
-      "id": 3,
-      "description": null,
-      "name": "เฟอร์นิเจอร์",
-      "product_count": 3,
-      "meta_description": null
-    },
-    "products": {
-      "items": [
+      "posts": [
         {
           "id": 6,
           "name": "Joust Duffle Bag"
@@ -26,6 +18,4 @@
           "name": "Chaz Kangeroo Hoodie"
         }
       ]
-    }
-  }
 }
