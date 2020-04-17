@@ -1,4 +1,4 @@
-[
+{
   {
     "id": 1,
     "title": "quote1",
@@ -65,4 +65,5 @@
     "description": "description",
     "create_at": "02/05/1997"
   },
-]
+}
+  
