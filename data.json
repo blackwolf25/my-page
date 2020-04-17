@@ -1,22 +1,20 @@
 {
-  "data": {
-      "posts": [
-        {
-          "id": 6,
-          "name": "Joust Duffle Bag"
-        },
-        {
-          "id": 25,
-          "name": "Quest Lumaflex&trade; Band"
-        },
-        {
-          "id": 46,
-          "name": "Luma Analog Watch"
-        },
-        {
-          "id": 73,
-          "name": "Chaz Kangeroo Hoodie"
-        }
-      ]
+  "posts": [
+    {
+      "id": 6,
+      "name": "Joust Duffle Bag"
+    },
+    {
+      "id": 25,
+      "name": "Quest Lumaflex&trade; Band"
+    },
+    {
+      "id": 46,
+      "name": "Luma Analog Watch"
+    },
+    {
+      "id": 73,
+      "name": "Chaz Kangeroo Hoodie"
     }
+  ]
 }
