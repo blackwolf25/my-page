@@ -1,8 +1,22 @@
-(function(){
-	
+$(function(){
 
-const posts = $.getJSON("data.json", function(json) {
-    return json;
+  	
+  	function simpleTemplating(data) {
+    var html = '<ul>';
+    $.each(data, function(index, item){
+        html += '<li>'+ item +'</li>';
+    });
+    html += '</ul>';
+    return html;
+}
+
+	$('#pagination-container').pagination({
+    dataSource: [1, 2, 3, 4, 5, 6, 7,195],
+    callback: function(data, pagination) {
+        // template method of yourself
+        var html = simpleTemplating(data);
+        $('#data-container').html(html);
+    }
+})
+
 });
-console.log(posts);
-})();

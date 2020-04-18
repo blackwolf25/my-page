@@ -1,4 +1,88 @@
 body 
 {
-	background-image: url('images/background.jpg');
+	background-image: url('images/content-background.png');
 }
+.container{
+	margin: 0 auto;
+	max-width: 815px;
+}
+.header{
+	background-image: url('images/cover-bg.jpg');
+	height: 200px;
+	background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.content{
+	background-color: #fff;
+}
+.profile{
+	width: 300px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    border-bottom: 1px solid
+}
+.avatar{
+	border-radius: 50%;
+    width: 170px;
+    height: 170px;
+    background-color: red;
+    overflow: hidden;
+    border: 3px solid white;
+    margin-top: -92px;
+    display: inline-block;
+}
+.avatar>img{
+	width: 100%;
+}
+.name{
+	font-size: 24px;
+	font-weight: bold;
+	color: #1d2129;
+}
+.menu{
+	text-align: center;
+}
+.menu ul li{
+	display: inline-block;
+	padding: 10px 20px;
+}
+body {
+  padding : 10px ;
+  
+}
+
+#exTab1 .tab-content {
+  color : white;
+  background-color: #428bca;
+  padding : 5px 15px;
+}
+
+#exTab2 h3 {
+  color : white;
+  background-color: #428bca;
+  padding : 5px 15px;
+}
+
+/* remove border radius for the tab */
+
+#exTab1 .nav-pills > li > a {
+  border-radius: 0;
+}
+
+/* change border radius for the tab , apply corners on top*/
+
+#exTab3 .nav-pills > li > a {
+  border-radius: 4px 4px 0 0 ;
+}
+
+#exTab3 .tab-content {
+  color : white;
+  background-color: #428bca;
+  padding : 5px 15px;
+}
+
+
+
+
+
