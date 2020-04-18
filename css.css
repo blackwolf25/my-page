@@ -9,7 +9,7 @@ body
   border: 3px solid cadetblue;
 }
 .header{
-	background-image: url('images/cover-bg.jpg');
+	background-image: url('images/cover.jpg');
 	height: 200px;
 	background-repeat: no-repeat;
     background-size: 100% 100%;
