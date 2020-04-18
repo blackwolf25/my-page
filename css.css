@@ -45,7 +45,7 @@ body
 }
 .menu ul li{
 	display: inline-block;
-	padding: 10px 20px;
+	padding: 0px 20px;
 }
 
 
@@ -64,7 +64,7 @@ body
 /* remove border radius for the tab */
 
 #exTab1 .nav-pills > li > a {
-  border-radius: 0;
+  border-radius: 10px 10px 0px 0px;
 }
 
 /* change border radius for the tab , apply corners on top*/
@@ -78,8 +78,23 @@ body
   background-color: #428bca;
   padding : 5px 15px;
 }
+.menu .nav-pills>li {
+     float: none; 
+}
 
-
-
-
+.menu .nav-pills>li.active>a{
+	background-color: #428bca;
+}
+#follow-me li{
+	padding-top: 10px;
+}
+#follow-me i{
+	color: white;
+}
+@media (max-width: 768px){
+	.container {
+	   padding: 0;
+	   margin: 0;
+	}
+}
 
