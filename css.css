@@ -1,10 +1,12 @@
 body 
 {
-	background-image: url('images/content-background.png');
+	background-image: url('images/background.jpg');
 }
 .container{
 	margin: 0 auto;
 	max-width: 815px;
+  padding: 0;
+  border: 3px solid cadetblue;
 }
 .header{
 	background-image: url('images/cover-bg.jpg');
@@ -53,31 +55,16 @@ body
   color : white;
   background-color: #428bca;
   padding : 5px 15px;
+  height: 200px;
 }
 
-#exTab2 h3 {
-  color : white;
-  background-color: #428bca;
-  padding : 5px 15px;
-}
-
-/* remove border radius for the tab */
 
 #exTab1 .nav-pills > li > a {
+  font-size: 20px;
   border-radius: 10px 10px 0px 0px;
 }
 
-/* change border radius for the tab , apply corners on top*/
 
-#exTab3 .nav-pills > li > a {
-  border-radius: 4px 4px 0 0 ;
-}
-
-#exTab3 .tab-content {
-  color : white;
-  background-color: #428bca;
-  padding : 5px 15px;
-}
 .menu .nav-pills>li {
      float: none; 
 }
@@ -90,11 +77,28 @@ body
 }
 #follow-me i{
 	color: white;
+  font-size: 36px;
 }
 @media (max-width: 768px){
 	.container {
 	   padding: 0;
 	   margin: 0;
+     border: none;
 	}
+}
+@media (max-width: 568px){
+  .menu ul li{
+  display: inline-block;
+  padding: 0px;
+  }
+  #follow-me li{
+    margin-top: 10px;
+      padding: 0 20px;
+
+  }
+  #exTab1 .nav-pills > li > a {
+  font-size: 12px;
+  border-radius: 10px 10px 0px 0px;
+}
 }
 
